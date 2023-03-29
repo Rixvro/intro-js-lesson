@@ -6,8 +6,14 @@ Make sure to code-along during lecture.
 
 // 1. Link the script.js file from the HTML
 
-// 2. Console Log + Comments + Reserved Words + Camel Case + Naming Convention
+// Declaring varaibles use let or const, previously use var
+let text = "this is a sentence"
+ // Changing the value of a varaible
 
+    alert(text);
+
+// 2. Console Log + Comments + Reserved Words + Camel Case + Naming Convention
+console.log(text);
 // 3. Creating Variables + Data Types
 
 // 4. Creating Functions (+ Event Listeners?)
