@@ -10,11 +10,13 @@ let y;
 // Initialize 3 variables:
 
     // 2. Assign one to the type Number below:
-const number = 1;
+const value = 1;
 
     // 3. Assign one to the type Boolean below:
-let boolean = true;
+let type = true;
 
     // 4. Assign one to the type String below:
-let string = "String"
+let text = "String";
 
+console.log(text);
+console.log(value);
