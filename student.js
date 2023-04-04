@@ -82,7 +82,7 @@ getRootRounded(20);
 // 5. Create a getRandom function that returns a random number from 1-100.
 
 function getRandom(){
-    const random = Math.random() * (100 - 1) + 1;
+    const random = Math.round(Math.random() * (100 - 1) + 1);
     console.log(random);
     return random;
 }
