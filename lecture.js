@@ -44,9 +44,23 @@ Make sure to code-along during lecture.
 
     // Arrow functions
 
-// 5. Strings
+// 5. Numbers
 
-// 6. Numbers
+    // Power
+    // console.log(2**3);
+
+    // Increment 
+    // let increment = 11;
+    // console.log(++increment);
+
+    // Absolute
+    // console.log(Math.abs(-295));
+
+    // Random Number
+    // console.log(Math.ceil(Math.random() * 100));
+
+    // Booleans
+// 6. Strings
 
 // 7. Arrays and Loops
 
