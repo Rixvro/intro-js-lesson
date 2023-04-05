@@ -62,7 +62,48 @@ Make sure to code-along during lecture.
     // Booleans
 // 6. Strings
 
+    // Just like C, a string is an array of characters
+    // let myName = 'Jian';
+    // console.log(myName[0]); outputs J
+
+    // .length method returns the length of array
+    // myName.length will return 4 
+
+    // Concatenation is possible in JS
+    // Example:
+    // let firstName = 'Alexis';
+    // let lastName = 'Rose';
+    // let fullName  firstName + " " + lastName;
+
+    // console.log(fullName); will log the full name + a space between
+
+    // String interpolation
+    // ${} is used similar to a format string in python, where you surround a variable with brackets to get the variable value
+    // Same thing but instead of f in front, use ` for format string
+
+    // ================String Methods================
+    // .substring method is similar but not exactly like slicing in python
+    // let subString = "JavaScript".substring(2,9); returns letters from v to p (for some reason lol, python is inclusive of the end boundary)
+
+    // .index method returns the location something is found at
+    // let text = "Google";
+    // let subText = google.indexOf('o');
+    // console.log(google[1]);
+    // console.log('index where substring is found: ', subText); index returns 1
+
+    // Slice (JS has slice as well, seems like they are both exclusive of the bounds)
+    // So something.slice[2, 5]; would be the objects at 3,4
+
+    // JS also has .split method which works just like python's .split method
+    // let myName = 'Jian';
+    // myName.split(""); gives you an array of ['J', 'i', 'a', 'n']
+
+    // Escape character like Java \\ exists (god damn it)
+    // let myName = "Jian is \"cool\" for sure";
+    // console.log(myName); prints Jian is "cool" for sure
+
 // 7. Arrays and Loops
+
 
 // 8. If Statements/Conditionals
 
