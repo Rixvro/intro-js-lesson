@@ -98,7 +98,7 @@ function getPersonStats(name,age,job){
 getPersonStats("jian", 24, "programmer");
 // 2. Create a sayFirstAndLast function expression that takes in 1 String parameter and console logs "the first character is: [firstChar] and last character is: [lastChar]".
 let firstAndLast = function sayFirstAndLast(a){
-    console.log(`the first character is: ${a[0]} and last character is: ${a[a.length - 1]}]`);
+    console.log(`the first character is: ${a[0]} and last character is: ${a[a.length - 1]}`);
 }
 firstAndLast("something");
 
