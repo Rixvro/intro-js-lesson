@@ -95,22 +95,25 @@
 function getPersonStats(name,age,job){
     console.log(`Hi my name is ${name}, I am ${age} years old, and I am a ${job}. `);
 }
-getPersonStats("jian", 24, "programmer")
+getPersonStats("jian", 24, "programmer");
 // 2. Create a sayFirstAndLast function expression that takes in 1 String parameter and console logs "the first character is: [firstChar] and last character is: [lastChar]".
 let firstAndLast = function sayFirstAndLast(a){
-    console.log(`the first character is: ${a[0]} and last character is: ${a[-1]}]`);
+    console.log(`the first character is: ${a[0]} and last character is: ${a[a.length - 1]}]`);
 }
-firstAndLast()
+firstAndLast("something");
 
 // 3. Create a yellFruitNum arrow function that takes in 1 number parameter, 1 String that is a fruit parameter, and console logs the sentence "I have [number] [FRUIT]" in all caps.
 const yellFruitNum = (number, fruit) => console.log(`I HAVE ${number} ${fruit.toUpperCase()} `);
 // 4. Create a sliceFruit function that takes in a String of a fruit and console logs everything except the first 2 letters.
 function sliceFruit(fruit){
-    console.log(sliceFruit.slice(2));
+    console.log(fruit.slice(2));
 }
+sliceFruit("fruit")
+
 // 5. Create a splitFruit function that takes in a String of a fruit and returns an array of the letters split into each index of the array.
 function splitFruit(fruit){
     const split = fruit.split("");
     console.log(split);
     return split;
 }
+splitFruit("bob")
